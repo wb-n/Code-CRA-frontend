@@ -151,7 +151,7 @@ img{
 .l-header{
   width: 50%;
   position: fixed;
-  margin-left: 600px;
+  margin-left: 730px;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
