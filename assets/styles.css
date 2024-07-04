@@ -64,9 +64,9 @@ html{
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
-  --title-color: #87a395;
+  --title-color: #000000;
   --text-color: #C7D1CC;
-  --body-color: #b0b4b2;
+  --body-color: #242020;
   --container-color: #27302C;
 }
 
@@ -84,7 +84,7 @@ body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: white;
+  background-color: var(--body-color);
   color: var(--text-color);
   line-height: 1.6;
 }
@@ -151,11 +151,11 @@ img{
 .l-header{
   width: 50%;
   position: fixed;
-  margin-left: 730px;
+  margin-left: 650px;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: white;
+  background-color: var(--body-color);
 }
 
 
